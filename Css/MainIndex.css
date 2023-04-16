@@ -1,0 +1,136 @@
+body {
+    font-family: 'Noto Serif SC', serif;
+    text-align: center;
+}
+
+html {
+    background-color: #f5e6cd;
+}
+
+.header-title {
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+.sub-header-title{
+    font-size: 25px;
+    font-family: 'Noto Serif SC', serif;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.header-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+/*取消超链接默认下划线*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+/* 设置已访问链接的颜色 */
+.main>.web360>a:visited {
+    color: #e0e30b;
+}
+
+.main>.web2345>a:visited {
+    color: #e0e30b;
+}
+
+.main>.webtx>a:visited {
+    color: #e0e30b;
+}
+
+
+.web360 {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: white;
+    font-size: 31px;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+}
+
+.web360:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.web2345 {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: white;
+    font-size: 31px;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+}
+
+.web2345:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.webtx {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: white;
+    font-size: 31px;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+}
+
+.webtx:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
